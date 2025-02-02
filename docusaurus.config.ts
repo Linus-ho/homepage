@@ -59,10 +59,10 @@ const config: Config = {
     image: 'img/docusaurus-social-card.jpg',
     navbar: {
       title: '珠海市紫岚宏达科技有限公司',
-      //logo: {
-      //  alt: 'My Site Logo',
-      //  src: 'img/logo.svg',
-      //},
+      logo: {
+        alt: 'My Site Logo',
+        src: 'img/logo.svg',
+      },
       items: [
         {
           type: 'docSidebar',
