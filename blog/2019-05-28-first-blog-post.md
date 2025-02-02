@@ -1,12 +1,12 @@
 ---
 slug: first-blog-post
-title: First Blog Post
+title: Greeting！初次见面
 authors:
-  name: Gao Wei
+  name: Linus Ho
   title: Docusaurus Core Team
-  url: https://github.com/wgao19
-  image_url: https://github.com/wgao19.png
-tags: [hola, docusaurus]
+  url: [https://github.com/Linus-ho]
+  image_url: https://github.com/Linus-ho.png
+tags: [Greeting]
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet
+珠海市紫岚宏达科技有限公司结合学术研究与产业实践，致力于为企业提供完整及专业的数字化转型方案咨询服务。欢迎大家咨询。
