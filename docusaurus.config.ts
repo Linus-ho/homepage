@@ -58,11 +58,11 @@ const config: Config = {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
     navbar: {
-      title: 'My Site',
-      logo: {
-        alt: 'My Site Logo',
-        src: 'img/logo.svg',
-      },
+      title: '珠海市紫岚宏达科技有限公司',
+      //logo: {
+      //  alt: 'My Site Logo',
+      //  src: 'img/logo.svg',
+      //},
       items: [
         {
           type: 'docSidebar',
@@ -82,46 +82,34 @@ const config: Config = {
       style: 'dark',
       links: [
         {
-          title: 'Docs',
+          title: '研究报告',
           items: [
             {
-              label: 'Tutorial',
+              label: '数字化转型',
               to: '/docs/intro',
             },
           ],
         },
         {
-          title: 'Community',
+          title: '社群活动',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-            },
-            {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
-            },
-            {
-              label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
+              label: '微信公众号 ： 项目管理经验',
+              //href: 'https://stackoverflow.com/questions/tagged/docusaurus',
             },
           ],
         },
         {
-          title: 'More',
+          title: '更多资讯',
           items: [
             {
-              label: 'Blog',
+              label: '博客',
               to: '/blog',
-            },
-            {
-              label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} 珠海市紫岚宏达科技有限公司 ｜ 使用Docusaurus.`,
     },
     prism: {
       theme: prismThemes.github,
