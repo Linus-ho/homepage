@@ -2,9 +2,9 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# 研究报告
 
-Let's discover **Docusaurus in less than 5 minutes**.
+让我们来发现 **紫岚宏达的研究报告** 吧！
 
 ## Getting Started
 
