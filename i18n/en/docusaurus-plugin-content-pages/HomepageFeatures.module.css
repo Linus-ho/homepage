@@ -1,0 +1,57 @@
+.features {
+  display: flex;
+  align-items: center;
+  padding: 4rem 0;
+  width: 100%;
+  background: var(--ifm-background-surface-color);
+}
+
+.sectionHeader {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.sectionTitle {
+  font-size: 2rem;
+  color: var(--ifm-color-primary);
+  margin-bottom: 0.5rem;
+}
+
+.sectionSubtitle {
+  font-size: 1.1rem;
+  color: var(--ifm-color-emphasis-600);
+  margin: 0;
+}
+
+.featureCard {
+  background: var(--ifm-background-color);
+  padding: 2rem 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  height: 100%;
+  margin: 0 0.5rem;
+}
+
+.featureCard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.featureIcon {
+  font-size: 3.5rem;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.featureTitle {
+  font-size: 1.25rem;
+  color: var(--ifm-color-primary);
+  margin-bottom: 1rem;
+}
+
+.featureDescription {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: var(--ifm-font-color-base);
+}
