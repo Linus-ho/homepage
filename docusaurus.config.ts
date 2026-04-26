@@ -70,7 +70,6 @@ const config: Config = {
           position: 'left',
           label: '研究报告',
         },
-        {to: '/blog', label: '博客', position: 'left'},
         {
           href: 'https://github.com/facebook/docusaurus',
           label: 'GitHub',
@@ -103,15 +102,7 @@ const config: Config = {
             },
           ],
         },
-        {
-          title: '更多资讯',
-          items: [
-            {
-              label: '博客',
-              to: '/blog',
-            },
-          ],
-        },
+
       ],
       copyright: `Copyright © ${new Date().getFullYear()} 珠海市紫岚宏达科技有限公司 ｜ 使用Docusaurus.`,
     },
