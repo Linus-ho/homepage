@@ -15,12 +15,17 @@ function HomepageHeader() {
         <Heading as="h1" className="hero__title">
           {siteConfig.title}
         </Heading>
-        <p className="hero__subtitle">{siteConfig.tagline}</p>
+        <p className="hero__subtitle">专业贸易 · 供应链服务 · 智能化解决方案</p>
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
+            to="/about">
+            了解我们
+          </Link>
+          <Link
+            className="button button--outline button--secondary button--lg"
             to="/docs/intro">
-            Docusaurus Tutorial - 5min ⏱️
+            研究报告
           </Link>
         </div>
       </div>
