@@ -8,23 +8,24 @@ import Heading from '@theme/Heading';
 import styles from './index.module.css';
 
 function HomepageHeader() {
+  const {siteConfig} = useDocusaurusContext();
   return (
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
       <div className="container">
         <Heading as="h1" className="hero__title">
-          珠海市紫岚宏达科技有限公司
+          Zilan Hongda Technology Co., Ltd.
         </Heading>
-        <p className="hero__subtitle">专业贸易 · 供应链服务 · 智能化解决方案</p>
+        <p className="hero__subtitle">Professional Trading · Supply Chain Services · Intelligent Solutions</p>
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
             to="/about">
-            了解我们
+            About Us
           </Link>
           <Link
             className="button button--outline button--secondary button--lg"
             to="/docs/intro">
-            研究报告
+            Research Reports
           </Link>
         </div>
       </div>
@@ -36,8 +37,8 @@ export default function Home(): JSX.Element {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
+      title={`Welcome to ${siteConfig.title}`}
+      description="Professional trading and supply chain services">
       <HomepageHeader />
       <main>
         <HomepageFeatures />

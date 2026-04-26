@@ -3,8 +3,8 @@ import type {Config} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
-  title: '珠海市紫岚宏达科技有限公司',
-  tagline: '专业贸易 · 供应链服务 · 智能化解决方案',
+  title: 'Zilan Hongda Technology',
+  tagline: 'Professional Trading · Supply Chain Services · Intelligent Solutions',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -16,12 +16,20 @@ const config: Config = {
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
 
-  // Even if you don't use internationalization, you can use this field to set
-  // useful metadata like html lang. For example, if your site is Chinese, you
-  // may want to replace "en" with "zh-Hans".
+  // Internationalization config - English as default, Chinese as alternative
   i18n: {
-    defaultLocale: 'zh-Hans',
-    locales: ['zh-Hans'],
+    defaultLocale: 'en',
+    locales: ['en', 'zh-Hans'],
+    localeConfigs: {
+      en: {
+        label: 'English',
+        direction: 'ltr',
+      },
+      'zh-Hans': {
+        label: '简体中文',
+        direction: 'ltr',
+      },
+    },
   },
 
   presets: [
@@ -69,6 +77,10 @@ const config: Config = {
           sidebarId: 'tutorialSidebar',
           position: 'left',
           label: '研究报告',
+        },
+        {
+          type: 'localeDropdown',
+          position: 'right',
         },
         {
           href: 'https://github.com/facebook/docusaurus',

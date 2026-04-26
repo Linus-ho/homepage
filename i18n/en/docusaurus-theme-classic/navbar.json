@@ -1,0 +1,18 @@
+{
+  "title": {
+    "message": "Zilan Hongda Technology Co., Ltd.",
+    "description": "The title in the navbar"
+  },
+  "item.label.公司简介": {
+    "message": "About Us",
+    "description": "Navbar item with label 公司简介"
+  },
+  "item.label.研究报告": {
+    "message": "Research Reports",
+    "description": "Navbar item with label 研究报告"
+  },
+  "item.label.GitHub": {
+    "message": "GitHub",
+    "description": "Navbar item with label GitHub"
+  }
+}
