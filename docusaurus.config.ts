@@ -4,7 +4,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
   title: '珠海市紫岚宏达科技有限公司',
-  tagline: '数字化转型咨询服务商',
+  tagline: '专业贸易 · 供应链服务 · 智能化解决方案',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -65,12 +65,17 @@ const config: Config = {
       },
       items: [
         {
+          to: '/about',
+          label: '公司简介',
+          position: 'left',
+        },
+        {
           type: 'docSidebar',
           sidebarId: 'tutorialSidebar',
           position: 'left',
           label: '研究报告',
         },
-        {to: '/blog', label: 'Blog', position: 'left'},
+        {to: '/blog', label: '博客', position: 'left'},
         {
           href: 'https://github.com/facebook/docusaurus',
           label: 'GitHub',
@@ -82,20 +87,24 @@ const config: Config = {
       style: 'dark',
       links: [
         {
-          title: '研究报告',
+          title: '关于我们',
           items: [
             {
-              label: '数字化转型',
+              label: '公司简介',
+              to: '/about',
+            },
+            {
+              label: '研究报告',
               to: '/docs/intro',
             },
           ],
         },
         {
-          title: '社群活动',
+          title: '联系我们',
           items: [
             {
-              label: '微信公众号 ： 项目管理经验',
-              //href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              label: '微信公众号：项目管理经验',
+              href: '#',
             },
           ],
         },
