@@ -8,16 +8,10 @@ const config: Config = {
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://linus-ho.github.io/',
+  url: 'https://www.zlhd.tech/',
   // Set the /<baseUrl>/ pathname under which your site is served
-  // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/homepage/',
-
-  // GitHub pages deployment config.
-  // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'linus-ho', // Usually your GitHub org/user name.
-  projectName: 'homepage', // Usually your repo name.
-  deploymentBranch: 'gh-pages', // The branch that GitHub Pages will deploy from.
+  // For Cloudflare Pages deployment, use '/'
+  baseUrl: '/',
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
