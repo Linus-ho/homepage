@@ -109,8 +109,12 @@ const config: Config = {
           title: '联系我们',
           items: [
             {
-              label: '微信公众号：项目管理经验',
+              label: '微信：linus_trading',
               href: '#',
+            },
+            {
+              label: 'WhatsApp：+85256836011',
+              href: 'https://wa.me/85256836011',
             },
           ],
         },
